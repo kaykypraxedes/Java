@@ -13,7 +13,7 @@ public class Calculadora {
         producoes[1] = new FabBike(10, 150, 100);
         producoes[2] = new FabCarro(20, 200, 80);
         producoes[3] = new FabCarro(0,0,0);
-        producoes[4] = new FabCarro(20, 200, 80);
+        producoes[4] = new FabCarro(20, 250, 80);
         try {
             System.out.println("Construção: " + producoes[0].getPegadaDeCarbono());
             System.out.println("Fabricação Bicicleta: " + producoes[1].getPegadaDeCarbono());
@@ -24,7 +24,7 @@ public class Calculadora {
             System.err.println(e.getMessage());
         }
         try {
-            System.out.println("Mostrar que não para por causa da Exception: " + producoes[4].getPegadaDeCarbono());
+            System.out.println("Mostra que o código não para por causa da Exception: " + producoes[4].getPegadaDeCarbono());
         } catch (ImpossivelCalcularPegadaException e){
             System.err.println(e.getMessage());
         }
