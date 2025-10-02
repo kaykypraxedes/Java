@@ -15,11 +15,11 @@
     para garantir o bom funcionamento do código.
 */
 
-package visao;
+package Visao;
 
-import negocios.Agenda;
-import negocios.Contato;
-import negocios.ContatoInexistenteException;
+import Negocios.Agenda;
+import Negocios.Contato;
+import Negocios.ContatoInexistenteException;
 
 import java.util.Scanner;
 

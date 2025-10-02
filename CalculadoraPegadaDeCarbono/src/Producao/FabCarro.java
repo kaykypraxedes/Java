@@ -1,4 +1,6 @@
-package pegadaDeCarbono;
+package pegadaDeCarbono.Producao;
+
+import pegadaDeCarbono.Excecao.ImpossivelCalcularPegadaException;
 
 public class FabCarro extends Fabricacao{
     public FabCarro(double M, double T, double F) {
@@ -9,7 +11,7 @@ public class FabCarro extends Fabricacao{
     }
 
     @Override
-    public double getPegadaDeCarbono() throws ImpossivelCalcularPegadaException{
+    public double getPegadaDeCarbono() throws ImpossivelCalcularPegadaException {
         return super.getPegadaDeCarbono();
     }
 }

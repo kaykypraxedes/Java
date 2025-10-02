@@ -1,3 +1,10 @@
+package Biblioteca;
+
+import Elementos.Artigo;
+import Elementos.Autor;
+import Elementos.Livro;
+import Elementos.Publicacao;
+
 import java.util.ArrayList;
 
 public class Biblioteca {

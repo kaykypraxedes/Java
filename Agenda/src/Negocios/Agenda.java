@@ -1,8 +1,8 @@
-package negocios;
+package Negocios;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import servicos.ManipulaArquivoTexto;
+import Servicos.ManipulaArquivoTexto;
 import java.util.HashMap;
 
 public class Agenda {

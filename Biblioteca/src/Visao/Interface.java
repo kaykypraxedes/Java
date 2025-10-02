@@ -1,19 +1,28 @@
+package Visao;
+
+import Biblioteca.Biblioteca;
+import Elementos.Publicacao;
+import Elementos.Artigo;
+import Elementos.Autor;
+import Elementos.Livro;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Teste {
+public class Interface {
     public static void main(String[] args) {
         String e = "Opção inválida!\n";
         Scanner input = new Scanner(System.in);
         Biblioteca biblioteca = new Biblioteca();
 
-
+        // Elementos criados para o arquivo não começar vazio
         Autor autor1 = new Autor("João", "Mestre");
         Autor autor2 = new Autor("Mario", "Doutor");
         Autor autor3 = new Autor("Luigi", "Mestre");
 
         Livro livro1 = new Livro(1,1,1967,"Belas Histórias","Leitura", 1, 123456);
         Livro livro2 = new Livro(3,5,1899,"Alice","Ática", 1, 654321);
+
         livro1.setAutores(autor1);
         livro1.setAutores(autor2);
         livro2.setAutores(autor3);
@@ -24,7 +33,6 @@ public class Teste {
 
         biblioteca.cadastrarPublicacao(livro1);
         biblioteca.cadastrarPublicacao(livro2);
-
 
         System.out.println("Insira suas ações:");
         System.out.println("1) Cadastrar.");

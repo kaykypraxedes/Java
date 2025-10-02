@@ -1,4 +1,6 @@
-package pegadaDeCarbono;
+package pegadaDeCarbono.Producao;
+
+import pegadaDeCarbono.Excecao.ImpossivelCalcularPegadaException;
 
 public class FabBike extends Fabricacao{
     public FabBike(double M, double T, double F) {

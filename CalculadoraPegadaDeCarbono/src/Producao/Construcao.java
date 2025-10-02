@@ -1,4 +1,6 @@
-package pegadaDeCarbono;
+package pegadaDeCarbono.Producao;
+
+import pegadaDeCarbono.Excecao.ImpossivelCalcularPegadaException;
 
 public class Construcao extends Producao{
     private double R;

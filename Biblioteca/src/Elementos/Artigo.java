@@ -1,6 +1,8 @@
+package Elementos;
+
 import java.util.ArrayList;
 
-public class Artigo extends Publicacao{
+public class Artigo extends Publicacao {
     // construtor
     public Artigo(int dia, int mes, int ano, String titulo, String editora,
                   int edicao, int ISBN){

@@ -1,6 +1,10 @@
-package pegadaDeCarbono;
+package pegadaDeCarbono.Visao;
 
-import java.util.Arrays;
+import pegadaDeCarbono.Excecao.ImpossivelCalcularPegadaException;
+import pegadaDeCarbono.Producao.Construcao;
+import pegadaDeCarbono.Producao.FabBike;
+import pegadaDeCarbono.Producao.FabCarro;
+import pegadaDeCarbono.Producao.Producao;
 
 public class Calculadora {
     public static void main(String[] args) {

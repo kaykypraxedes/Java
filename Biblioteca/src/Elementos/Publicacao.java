@@ -1,4 +1,5 @@
-import java.lang.reflect.AnnotatedType;
+package Elementos;
+
 import java.util.ArrayList;
 
 public abstract class Publicacao {
@@ -65,7 +66,7 @@ public abstract class Publicacao {
         }
         return String.format("Título: %s, Data de publicação: %d/%d/%d%n" +
                 "Autor(es): %s%n" +
-                "%dª Edição, Editora: %s, ISBN: %d%n", titulo, data[0], data[1],
+                "%d° Edição, Editora: %s, ISBN: %d%n", titulo, data[0], data[1],
                 data[2], quaisAutores, edicao, editora, ISBN);
     }
 }

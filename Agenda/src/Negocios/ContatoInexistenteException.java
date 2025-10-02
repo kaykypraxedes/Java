@@ -1,4 +1,4 @@
-package negocios;
+package Negocios;
 
 public class ContatoInexistenteException extends Exception{
 

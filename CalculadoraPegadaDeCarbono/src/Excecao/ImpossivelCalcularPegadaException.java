@@ -1,4 +1,4 @@
-package pegadaDeCarbono;
+package pegadaDeCarbono.Excecao;
 
 public class ImpossivelCalcularPegadaException extends Exception {
     public ImpossivelCalcularPegadaException(String message) {
