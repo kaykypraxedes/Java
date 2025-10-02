@@ -1,3 +1,20 @@
+/*
+- Desenvolvedor:
+    Kayky Moreira Praxedes
+
+- Resumo do projeto:
+    Agenda digital que mantém os dados armazenados mesmo após o fechamento 
+    do programa com um menu interativo para o usuário. 
+    
+    Dentre as funcionalidades estão  adicionar e excluir um contato, ver 
+    todos os contatos ou informações de um em específico. 
+    
+    O projeto segue os princípios da Programação Orientada a Objetos, com 
+    separação dos módulos em packages com suas devidas responsabilidades, 
+    utilizando ferramentas de manipulação de arquivos de texto e exceções 
+    para garantir o bom funcionamento do código.
+*/
+
 package visao;
 
 import negocios.Agenda;
@@ -78,7 +95,8 @@ public class AppAgenda {
             System.out.println("0 - Encerrar;");
             System.out.print("? ");
             escolha = input.nextInt();
-            input.nextLine(); //  limpa buffer depois
+            //  limpa buffer depois
+            input.nextLine();
         }
         System.out.println("Encerrando...");
         input.close();
